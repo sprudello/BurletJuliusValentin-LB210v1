@@ -1,0 +1,12 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Schlechter Witz des Tages:</h1>
+    <p class="joke">@ViewData["Joke"]</p>
+    <p class="info">Host: @Environment.MachineName</p>
+    <p class="info">Vorname Nachname</p>
+</div>
